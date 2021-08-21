@@ -1,0 +1,31 @@
+#project-tables {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+th.date, th.code {
+  width: 25%;
+}
+th.project {
+  width: 50%;
+}
+.table-title {
+  font-size: 12px;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
