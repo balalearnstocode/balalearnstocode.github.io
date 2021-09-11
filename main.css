@@ -29,3 +29,14 @@ th.project {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.table-img {
+  height: 30px;
+}
+.certificate {
+  background-color: darkcyan!important;
+  color: #fff;
+}
+.certificate a {
+  color: white;
+}
